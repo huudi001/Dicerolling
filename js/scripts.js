@@ -43,7 +43,7 @@ $(document).ready(function(){
     } else {
       $("h2#player2").css('color', 'green');
       $("h2#player1").css('color', 'grey');
-      $("#player1buttons").hide();
+      $("#player1buttons").hide(); 
       $("#player2buttons").show();
     }
   };
